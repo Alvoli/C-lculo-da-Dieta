@@ -25,3 +25,6 @@ Funções:
 
 
 
+#### Segundo commit
+
+A única alteração feita foi a de alterar os nomes das constantes para uppercase.

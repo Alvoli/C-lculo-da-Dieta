@@ -1,7 +1,7 @@
 import time
-Prot = 0.15
-Carb = 0.55
-Fat = 0.3
+PROT = 0.15
+CARB = 0.55
+FAT = 0.3
 A = int(input("Insira sua altura em centímetros:"))
 I = int(input("Insira sua idade:"))
 P = float(input("Insira o seu peso:"))
@@ -21,9 +21,9 @@ def DefineGenero():
 DefineGenero()
 GCD= int(input("Insira seus gastos calóricos diários(Dentre cardio, musculação e jornada de trabalho):"))
 GCD_F= GCD + TMB
-Calc_Carb= GCD_F*Carb/4
-Calc_Prot= GCD_F*Prot/4
-Calc_Fat= GCD_F*Fat/9
+Calc_Carb= GCD_F*CARB/4
+Calc_Prot= GCD_F*PROT/4
+Calc_Fat= GCD_F*FAT/9
 Calc_Carb_Baixo= ((TMB-(TMB*0.2)+GCD)*0.55)/4
 Calc_Carb_Alto= ((TMB+(TMB*0.2)+GCD)*0.55)/4
 print(f"Seu Carboidrato diário base é de: {Calc_Carb:.2f} gramas.")
